@@ -9,6 +9,7 @@ menu:
   help:
     parent: sso
     identifier: sso-jsconnect
+    weight: 3
 aliases:
 - /features/sso/jsconnect
 ---
