@@ -13,7 +13,9 @@ menu:
 aliases:
 - /features/sso/jsconnect
 - /features/sso/jsconnect/embed
+- /features/sso/jsconnect/overview
 - /help/sso/jsconnect/embed
+- /help/sso/jsconnect/overview
 ---
 
 ## Why jsConnect?
@@ -95,7 +97,7 @@ Vanilla's web-based single sign on (SSO) has 2 parts:
 
 jsConnect pings your endpoint whenever it wants to know if a user is logged in on your site. It does this using the user's current session, so you can use your normal "is logged in" detection to determine this - nothing fancy here.
 
-### Your endpoint
+### Your Endpoint & Client Libraries
 
 Your endpoint needs to say 1 of 3 things when it's called:
 
@@ -107,10 +109,12 @@ Our example libraries help you structure the output so that jsConnect can read i
 
 These libraries are open source and maintained on Github:
 
-* [PHP jsConnect client library](https://github.com/vanillaforums/jsConnectPHP)
-* [Ruby jsConnect client library](https://github.com/vanillaforums/jsConnectRuby)
-* [Java jsConnect client library](https://github.com/vanillaforums/jsConnectJava)
-* [.NET jsConnect client library](https://github.com/vanillaforums/jsConnectdotNet)
+- [PHP jsConnect client library](https://github.com/vanillaforums/jsConnectPHP)
+- [Ruby jsConnect client library](https://github.com/vanillaforums/jsConnectRuby)
+- [Java jsConnect client library](https://github.com/vanillaforums/jsConnectJava)
+- [.NET jsConnect client library](https://github.com/vanillaforums/jsConnectdotNet)
+- [Python jsConnect client library](https://github.com/vanilla/python-jsconnect)
+
 
 All of these libraries have one file with all of the library code you'll need and one file that gives an example usage. They also have a readme that tells you which file is which. _Please note that these libraries don't support [embedded SSO](/help/features/sso/jsconnect/embed)._
 

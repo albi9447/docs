@@ -58,7 +58,6 @@ function anchorifyPage() {
 function setupSmoothScroll() {
     var $hashlinks = $("a[href^='#']");
 
-    // Add smoothscroll listeners
     $(document).on("click touchstart", "a[href^='#']", function(e) {
         var $link = $(this);
         if (hasAttr($link, "href")) {

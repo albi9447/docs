@@ -9,23 +9,13 @@ category: help
 menu:
   help:
     parent: sso
+    weight: 4
 aliases:
 - /features/sso/jsconnect/seamless
 - /help/sso/jsconnect/seamless
 ---
 
-jsConnect uses javascript to allow cross-domain single-signon with another site. We provide several [client libraries(http://blog.vanillaforums.com/help/implementing-jsconnect-single-signon-on/#libraries">client libraries</a> to help you implement jsConnect on your site. If your site has been programmed in a language that doesn't have a client library than this is documentation is for you.
-
-## Client Libraries
-
-- [PHP](https://github.com/vanilla/jsConnectPHP)
-- [Ruby](https://github.com/vanilla/jsConnectRuby)
-- [Java](https://github.com/vanilla/jsConnectJava)
-- [Python](https://github.com/vanilla/python-jsconnect)
-- [.NET](https://github.com/vanilla/jsConnectdotNet)
-- [ASP.NET Core MVC](https://github.com/vanilla/jsConnectAspNetCoreMvc)
-
-Please note that this is technical documentation and requires knowledge programming to understand.
+jsConnect uses javascript to allow cross-domain single-sign-on with another site. We provide several [client libraries](/help/sso/jsconnect/#your-endpoint-client-libraries) to help you implement jsConnect on your site. If your site has been programmed in a language that doesn't have a client library than this is documentation is for you.
 
 ## Functions You'll Need
 
